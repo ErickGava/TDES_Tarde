@@ -13,6 +13,12 @@ function sub(){
 function mul(){
     var numero05 = document.getElementById("number05").valueAsNumber
     var numero06 = parseFloat(document.getElementById("number06").value)
-    var resposta = document.getElementById("respsub")
+    var resposta = document.getElementById("respmul")
     resposta.textContent = numero05 * numero06
+}
+function div(){
+    var numero07 = document.getElementById("number07").valueAsNumber
+    var numero08 = parseFloat(document.getElementById("number08").value)
+    var resposta = document.getElementById("respdiv")
+    resposta.textContent = numero07 / numero08
 }
